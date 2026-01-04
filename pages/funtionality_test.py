@@ -1,3 +1,8 @@
+# Module: funtionality_test
+# Purpose: Quick smoke tests to exercise Stack, Deque, LinkedList and Queue implementations.
+# Notes:
+# - Randomized tests; prints results for manual inspection.
+# - Constants at top control test sizes and delete counts.
 
 from data_types.queue import Queue
 from data_types.dequeue import Deque

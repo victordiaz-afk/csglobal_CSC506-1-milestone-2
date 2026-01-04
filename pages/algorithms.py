@@ -1,3 +1,12 @@
+# Module: algorithms
+# Purpose: Small demo utilities illustrating producer/consumer threading,
+# a simple TextEditor using Deque + Stack for undo, and helper functions
+# to fill and enqueue story lines with random words.
+# Contains:
+# - TextEditor: queue/deque + undo stack operations (add/delete/undo)
+# - producer: splits a story, fills placeholders and enqueues lines
+# - consumer: dequeues lines and feeds them into TextEditor
+# - Demo main: runs producer/consumer threads and shows undo flow
 
 import threading
 import time
